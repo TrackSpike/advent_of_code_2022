@@ -1,8 +1,6 @@
-from collections import defaultdict
-
 
 def main():
-    with open("/Users/bryce.cole/advent_of_code_2022/day10/input.txt") as f:
+    with open(r"/day10/input.txt") as f:
         cycle, x = 0, 1
         process = (False, 0)
 
